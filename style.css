@@ -1,0 +1,103 @@
+h5{
+    color: dodgerblue;
+}
+h4{
+    color: pink;
+}
+
+/* div{
+    width: 300px;
+    height: 300px;
+    background: black;
+    
+}
+p{
+    color: white;
+    background-color: red;
+    margin: 40px;
+    padding: 20px;
+} */
+
+p{
+    background: red;
+    width: 500px;
+    height: 200px;
+    margin:100px;
+    padding: 80px;
+    /*  borders */
+
+    border-width:30px;
+  
+    /* border-left-style: solid;
+    border-right-style: dashed;
+    border-bottom-style: solid;
+    border-top-style: dashed; */
+
+/* border-style: dashed solid; */
+  /* border-color: black; */
+   /* border: 5px solid blue;
+   border-left: 20px solid yellow;
+   border-right: 30px dashed dodgerblue;
+   border-top: 10px solid green;
+   border-bottom: 40px dashed pink; */
+
+   border-style: solid;
+   outline-width: 30px;
+   outline-style: dashed;
+   outline-color: rgb(0, 34, 255);
+   /* border-style: dashed;
+   border-style: dotted;
+   border-style:double;
+   border-style:groove; */
+
+}
+h4{
+    background: red;
+    width: 500px;
+    height: 200px;
+
+    margin: 10px 30px 100px 40px;
+    padding: 20px 40px;
+    border-width: 30px;
+    border-style:ridge;
+ 
+
+}
+h2{
+    background:red;
+    width: 300px;
+    height: 100px;
+    margin: 40px;
+    padding: 40px;
+    border-width: 40px;
+    border-left-width: 10px;
+    border-style: solid;
+    border-color: green;
+    border: 10px dotted dodgerblue;
+    /* outline: 20px solid black; */
+
+    border-radius: 20px;
+}
+
+.name{
+background-color: red;
+}
+.class2{
+    width: 300px;
+    height: 100px;
+
+}
+.name1{
+    background: black ;
+}
+.name2{
+    background: green;
+}
+.name3{
+    background: yellowgreen;
+}
+#id{
+    width: 300px;
+    height: 100px;
+    background: yellow;
+}

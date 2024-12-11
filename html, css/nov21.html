@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .narayana li{
+            list-style-type: none;
+        }
+       
+ 
+        .narayana li::before {
+          content: ' |'; 
+          display: inline-block;
+         
+       
+      }
+      .narayana li:first-child::before {
+         content: ''; 
+         display: inline-block;
+            }
+
+    .div1{
+        border: 2px solid green;
+        padding: 5px;
+        /* width: 80px; */
+        float:left;
+        float: right;
+    }
+    .div2{
+        padding: 10px;
+        border: 3px solid red;
+        height: 100px;
+        clear: left;
+        clear: right;
+    }
+    </style>
+</head>
+<body>
+    
+    <!-- -->
+ <!-- <ol class="narayana">
+    <li>lis1</li>
+    <li>list </li>
+    <li>list </li>
+    <li>list </li>
+</ol> -->
+<!--  float and clear in css -->
+  <div class="div1">
+    float box
+  </div>
+  <div class="div2">
+    box contains flot box inside  it.
+  </div>
+
+
+
+</body>
+</html>

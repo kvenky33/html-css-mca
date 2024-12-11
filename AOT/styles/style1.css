@@ -1,0 +1,85 @@
+.levi{
+    width: 300px;
+    height: 300px;
+    background: black;
+}
+.erwin .levi{
+    background: red;
+}
+#smith .levi .eager p{
+    color: aqua;
+}
+/* display 
+- block
+-inline
+-inline-block
+
+    visibility: hidden;
+    display: none 
+*/
+
+.para1{
+    width: 100px;
+    height: 100px;
+    margin: 60px;
+    background: red;
+    display: inline-block;
+    visibility: hidden;
+    /* display: none */
+}
+.para2{
+    width: 100px;
+    height: 100px;
+    margin: 60px;
+    background: red;
+    display: inline;
+}
+span{
+    display: block;
+    background:rgba(255, 0, 0, 0.502);
+    color:#000;
+}
+
+/*  coloring 
+ rgb - > red, green , blue 
+ rgba -> red, green, blue, alpha (opacity)
+ hex- 0 0 0     00 00 00
+      f f 
+
+      background ;
+      combinators ;
+      position properties ; 
+      
+ */    
+ /*  descendant selector - (space) */
+.section2 p{
+    color: dodgerblue;
+ }
+
+
+ /* child selector (>) */
+ div  p{
+    color: red;
+ }
+ .section1>p{
+    color: green;
+ }
+ /*  adjasent sibling  */
+
+ .section1+p{
+    color: rgb(255, 204, 0);
+ } 
+ /*  general sibling */
+ .section1~p{
+    color: brown;
+ } 
+
+ .section1 p , .section2 p{
+    padding: 3px;
+    width: 100px;
+    background: red;
+ }
+ .div1 p{
+    background: green;
+ }
+ /*  space and ,  */

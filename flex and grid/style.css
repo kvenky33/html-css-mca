@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    height: 500px;
+    display: flex;
+    border: 3px solid red;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    /* flex-wrap: nowrap; */
+
+ 
+    /* justify-content:center ; */
+    /* justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    justify-content: flex-start;
+    justify-content: flex-end; */
+    /* align-items: center; */
+    /* align-items: flex-start;
+    align-items: flex-end; */
+
+}
+/* .flex{
+ flex-direction: column; 
+ justify-content: space-evenly;
+ align-items: center;
+  
+} */
+
+.flex-box{
+    width: 100px;
+    height: 100px;
+    /* margin: 10px; */
+    background: red;
+    /* margin: 10px; */
+
+
+    /*
+    order
+    flex-grow 
+    flex-shrink
+    flex basis
+    align self
+
+    flex : 0 0 500px 
+
+
+     */
+}
+/* .flex-box1{
+ 
+
+
+}
+.flex-box2{
+    /* flex-grow: 1; */
+    /* flex-basis: 500px; */
+    /* flex :1 2 500px;
+} */
+.flex-box3{
+ 
+   
+    /* flex-shrink: 3; */
+}
+/* .flex-box4{
+ 
+    
+
+} */ 
+
+.container {
+    display: flex;
+    width: 300px; 
+    /* gap: 20px; */
+    /* border: 1px solid black; */
+  }
+  
+  .box {
+     
+    flex-basis: 150px;
+
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .box1 {
+    background-color: red;
+    flex-shrink: 2;
+ /* Will shrink normally */
+  }
+  
+  .box2 {
+    background-color: blue;
+    /* flex-shrink: 3; */
+    /* Will shrink twice as much as box1 and box3 */
+  }
+  
+  .box3 {
+    background-color: green;
+    /* flex-shrink: 4; */
+    flex-shrink: 1;
+     /* Will not shrink */
+  }
+  
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    border: 3px solid red;
+    justify-content: space-around;
+  }
+  .flex-container .flex-box{
+    background: green;
+    padding: 10px;
+    
+  }
+  .flex-container .flex2{
+    align-self: center;
+  }
+  .flex-container .flex1{
+    align-self: flex-start;
+  }
+  .flex-container .flex3{
+    align-self: flex-end;
+  }
+  .flex-container .flex4{
+    align-self: center;
+  }
